@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- css -->
     <link rel="stylesheet" href="style.css" />
-    <link rel="shortcut icon" href="img/izal1.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" href="image/izal1.jpg" type="image/x-icon" />
     <!-- cdn -->
     <link
       rel="stylesheet"
@@ -14,10 +14,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>website</title>
+    <title>about</title>
   </head>
   <body>
-    <!-- Navbar -->
+    <!-- navbar -->
     <nav class="navbar">
       <div class="container">
         <h1 class="logo">MyWebsite</h1>
@@ -27,64 +27,60 @@
           <span class="bar"></span>
         </div>
         <ul class="nav-list">
-          <li><a href="#">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
           <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="#">About</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <!-- Hero Section Awal -->
-    <section id="home" class="hero">
-      <h1>Selamat Datang di Website Personalku</h1>
-      <h2>Saya seorang Front-End Developer</h2>
-      <button onclick="scrollToSection('about')">Learn More</button>
-    </section>
-    <!-- Hero Section Akhir-->
-
-    <section id="highlights" class="highlights">
-      <h2>Skill</h2>
-      <div class="highlight-content">
-        <div class="highlight-card">
-          <i class="fa-brands fa-html5"></i>
-          <!-- Ikon kode -->
-          <h3>HTML</h3>
-          <div class="paragraf">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
-              Nulla quis sem at nibh elementum imperdiet.
-            </p>
-          </div>
+    <!-- about -->
+    <section id="about" class="about">
+      <h2>Tentang Saya</h2>
+      <div class="about-content">
+        <div class="about-photo">
+          <img src="image/izal1.jpg" alt="Profile Photo" />
         </div>
-        <div class="highlight-card">
-          <i class="fa-brands fa-html5"></i>
-          <!-- Ikon chart -->
-          <h3>CSS</h3>
-          <div class="pragraf">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
-              Nulla quis sem at nibh elementum imperdiet.
-            </p>
-          </div>
-        </div>
-        <div class="highlight-card">
-          <i class="fa-brands fa-js"></i>
-          <!-- Ikon lampu ide -->
-          <h3>JavaScript</h3>
-          <div class="paragraf">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-              nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi.
-              Nulla quis sem at nibh elementum imperdiet.
-            </p>
+        <div class="about-bio">
+          <h3>Adi Juliyanto Afrizal</h3>
+          <p>
+            Pengembang Web dengan hasrat untuk menciptakan pengalaman pengguna
+            yang interaktif dan dinamis. Dengan pengalaman lebih dari 5 tahun
+            dalam pengembangan front-end, saya berspesialisasi dalam HTML, CSS,
+            dan JavaScript. Saya senang mengubah ide menjadi kenyataan dan
+            berupaya menjadikan web menjadi tempat yang lebih baik.
+          </p>
+          <h4>Skills:</h4>
+          <div class="skills">
+            <div class="skill">
+              <p>HTML & CSS</p>
+              <div class="skill-bar">
+                <div class="skill-level html-css"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <p>JavaScript</p>
+              <div class="skill-bar">
+                <div class="skill-level javascript"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <p>Figma</p>
+              <div class="skill-bar">
+                <div class="skill-level figma"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <p>Desain UI</p>
+              <div class="skill-bar">
+                <div class="skill-level desainui"></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
-
     <!-- footer -->
     <footer>
       <div class="waves">
@@ -113,7 +109,7 @@
         </li>
       </ul>
     </footer>
-
+    <!-- js -->
     <script src="script.js"></script>
   </body>
 </html>

@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- css -->
     <link rel="stylesheet" href="style.css" />
-   <link rel="shortcut icon" href="img/izal1.jpg" type="image/x-icon" />
+    <link rel="shortcut icon" href="image/izal1.jpg" type="image/x-icon" />
     <!-- cdn -->
-      <link
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
       integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <title>contact</title>
+    <title>gallery</title>
   </head>
   <body>
     <!-- navbar -->
@@ -29,46 +29,43 @@
         <ul class="nav-list">
           <li><a href="index.html">Home</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="#">Gallery</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
     </nav>
-    <!-- contact -->
-        <div class="contact">
-          <h2>Contact</h2>
-          <p>Beri saya masukan, agar bisa mengembangkan website ini</p>
-          <form class="contact-form" action="https://formspree.io/f/xgveaqva" method="POST">
-            <label for="name">Nama</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              placeholder="nama"
-              required
-            />
-            <label for="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="email"
-              required
-            />
-            <label for="message">Masukan</label>
-            <textarea
-              id="message"
-              name="message"
-              placeholder="masukan"
-              required
-            ></textarea>
-            <button class="btn">Kirim</button>
-          </form>
+    <!-- Gallery Section Awal-->
+    <section class="gallery" id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img src="image/izal9.jpg" alt="Image 1" />
         </div>
-
-        <!-- footer -->
-          <footer>
+        <div class="gallery-item">
+          <img src="image/izal1.jpg" alt="Image 2" />
+        </div>
+        <div class="gallery-item">
+          <img src="image/Afrizal1.jpg" alt="Image 3" />
+        </div>
+        <div class="gallery-item">
+          <img src="image/Afrizal2.jpg" alt="Image 4" />
+        </div>
+        <div class="gallery-item">
+          <img src="image/Afrizal3.jpg" alt="Image 5" />
+        </div>
+        <div class="gallery-item">
+          <img src="image/Afrizal4.jpg" alt="Image 6" />
+        </div>
+        <div class="gallery-item">
+          <img src="image/Afrizal5.jpg" alt="Image 7" />
+        </div>
+        <div class="gallery-item">
+          <img src="image/Afrizal6.jpg" alt="Image 8" />
+        </div>
+      </div>
+    </section>
+    <footer>
       <div class="waves">
         <div class="wave" id="wave1"></div>
         <div class="wave" id="wave2"></div>
@@ -84,21 +81,18 @@
           ></a>
         </li>
         <li>
-          <a href="#"
+          <a href="https://discord.com/invite/VykGrj6P"
             ><i class="fa-brands fa-twitter"></i
           ></a>
         </li>
         <li>
-          <a href=https://github.com/Afrizal-10"
+          <a href="https://github.com/Afrizal-10"
             ><i class="fa-brands fa-github"></i
           ></a>
         </li>
       </ul>
     </footer>
-      </body>
-    </html>
-
-    <!-- js -->
+    <!-- Gallery Section Akhir-->
     <script src="script.js"></script>
   </body>
 </html>
